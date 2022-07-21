@@ -8,4 +8,3 @@ def sort_duplicates(input_str):
             elements_present.add(i)
     return ''.join(sorted(output_list))
 
-print(sort_duplicates('aaccdff'))
